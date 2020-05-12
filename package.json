@@ -1,0 +1,41 @@
+{
+  "name": "webdriverio-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "default": "npm run lint && npm run prettier",
+    "lint": "npx eslint ../webdriverio-lesson/**/*.js",
+    "test": "wdio Config/local.wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^5.18.7",
+    "@wdio/cucumber-framework": "^5.20.0",
+    "@wdio/local-runner": "^5.22.4",
+    "@wdio/spec-reporter": "^5.22.4",
+    "@wdio/sync": "^5.18.7",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "5.18.7"
+  },
+  "dependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/register": "7.5.5",
+    "@types/cucumber": "4.0.7",
+    "@wdio/allure-reporter": "5.11.7",
+    "@wdio/browserstack-service": "5.18.7",
+    "@wdio/config": "5.18.4",
+    "@wdio/selenium-standalone-service": "5.16.10",
+    "allure-commandline": "2.9.0",
+    "chai": "4.2.0",
+    "deepmerge": "^4.0.0",
+    "cucumber": "6.0.5"
+  }
+}

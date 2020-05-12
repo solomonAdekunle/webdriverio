@@ -1,0 +1,38 @@
+module.exports = {
+  Service: "Services",
+  Legal: "Legal",
+  AboutRS: "A propos de RS",
+  ServicesDisplayLinksCount: 6,
+  legalDisplayedLinksCount: 4,
+  aboutUSDisplayedLinksCount: 5,
+  loginLabel: "Log In",
+  registerButtonLabel: "Register",
+  ServiceslDisplayLinksName: "500.000 produits,Aide technique,Livraisons & Retours,Mon Compte en ligne,Moyens de commande,Suivi de commande,",
+  LegalLinknames: "Conditions d'utilisation du site,Politique de cookies,Respect de la vie privée,Sécurité des E-mails,",
+  AboutUSDisplayedLinksNames: "A propos de RS,Conditions générales de vente,Le groupe Electrocomponents,Presse,RS dans le monde,",
+  loginUserName: "MobileTest",
+  RSOfficeAddress: "© RS Components Belux Stephanie Square Centre | Av. Louise 65, box 11 | 1050 Bruxelles | TVA: BE 0467.850.695 | RC Bruxelles: 637.337",
+  RSContactNumber: "BE: 02 528 07 70 LUX: 027 86 02 97",
+  TalkToUsLabel: "Contactez-nous",
+  SocialMediaLinks: 4,
+  SocialMediaLinksLabel: "https://twitter.com/RSComponents,https://www.linkedin.com/company/7099/,https://www.instagram.com/rs_components/,https://www.facebook.com/RSComponents",
+  CompliancelinksLabel: "Website Terms,Privacy Policy,Cookie Policy,Email Security",
+  loginPassword: "password",
+  logOutText: "Log Out ",
+  footer1HeaderFirstLinkHref: "/web/op/allproducts",
+  footer1HeaderSecondLinkHref: "/web/generalDisplay.html?id=services/aide-technique",
+  footer1HeaderLastLinkHref: "/web/generalDisplay.html?id=services/suivi-de-commande",
+  footer2HeaderFirstLinkHref: "/web/generalDisplay.html?id=aboutRS&file=terms",
+  footer2HeaderSecondLinkHref: "/web/generalDisplay.html?id=aboutRS&file=cookiePolicy",
+  footer2HeaderLastLinkHref: "/web/generalDisplay.html?id=aboutRS/email-security",
+  footer3HeaderFirstLinkHref: "/web/generalDisplay.html?id=aboutRS",
+  footer3HeaderSecondLinkHref: "/web/generalDisplay.html?id=aboutRS&file=conditions",
+  footer3HeaderLastLinkHref: "http://www.rs-components.com/",
+  weAcceptPaymentTypesLabel: "Nous acceptons",
+  paymentOptionSource: "/befr_payment_options.svg",
+  ConnectWithUsLable: "Retrouvez-nous sur",
+
+
+
+
+};
